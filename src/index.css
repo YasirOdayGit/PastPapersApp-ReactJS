@@ -1,0 +1,39 @@
+/*importing fonts*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+/*Root control for colors and fonts*/
+:root {
+  /* Text Color */
+  --searchbarTextHint: #a6a6a6;
+  --searchbarFillColor: #f1f1f1;
+
+  --textColor: #616163;
+  --fadedTextColor: #616163;
+
+  --blueColor: #3e80fd;
+  --fadedIconColor: #e5e5e5;
+  --shade-color: #072227;
+  --shade-color1: #35858b;
+  --shade-color2: #004a8f;
+  --shade-color3: #005baf;
+
+  /*fonts*/
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
+  background-color: white;
+}
+body {
+  background-color: rgb(248, 248, 248);
+  min-width: clamp(1000px, 100vh, 100vh);
+  min-height: 100vh;
+  overflow-x: auto;
+}
+
+*,
+::after,
+::before {
+  font-family: var(--ff-primary);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}

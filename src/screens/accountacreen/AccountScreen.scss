@@ -1,0 +1,50 @@
+.app__accountscreen-infoContainer {
+  margin: 1rem 0rem;
+  padding: 1rem;
+  background-color: var(--searchbarFillColor);
+  border-radius: 10px;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  & > * {
+    margin: 0.5rem 0.5rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--textColor);
+    height: 40px;
+  }
+}
+
+.app_accountscreen-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  & > * {
+    margin: 0px 5px;
+  }
+}
+
+.signoutbutton {
+  background-color: var(--blueColor);
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.app_accountscreen-backButton {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  color: var(--textColor);
+  cursor: pointer;
+}

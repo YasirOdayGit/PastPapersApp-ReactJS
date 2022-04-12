@@ -1,0 +1,40 @@
+.listTile {
+  width: 100%;
+  font-size: 18px;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.25rem 0rem;
+  padding: 0rem 0.25rem;
+  .pre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    .prefixIcon > * {
+      width: 25px;
+      height: 25px;
+      color: var(--textColor);
+      margin-right: 15px;
+    }
+    .verticalSchoolItem {
+      flex: 1;
+      color: var(--searchbarTextHint);
+      font-weight: bold;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      cursor: pointer;
+    }
+  }
+  .suffixIcon > * {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+    align-self: center;
+  }
+}
